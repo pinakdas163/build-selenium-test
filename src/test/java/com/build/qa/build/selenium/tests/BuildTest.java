@@ -18,7 +18,7 @@ public class BuildTest extends BaseFramework {
 		
 		softly.assertThat(homePage.onBuildTheme())
 			.as("The website should load up with the Build.com desktop theme.")
-			.isNotNull();
+			.isTrue();
 	}
 	
 	/** 
