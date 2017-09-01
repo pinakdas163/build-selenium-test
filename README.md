@@ -7,10 +7,10 @@ Basic Requirements:
 * Correctly use Page Objects and AssertJ to the best of your abilities.
 * Make sure the code compiles without issue when running "mvn test", and that all tests pass. 
 
-Bonus points will be awarded by accomplishing: 
+Bonus points:
 * Make the tests work with multiple browsers (Chrome, Safari, etc.)
 
-Even more bonus points will be awarded by accomplishing: 
+More bonus points (be impressive):
 * Make the tests work with Appium: using Safari on iOS and/or Chrome on Android. 
 
 Good luck!
