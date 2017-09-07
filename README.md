@@ -13,4 +13,6 @@ Bonus points:
 More bonus points (be impressive):
 * Make the tests work with Appium: using Safari on iOS and/or Chrome on Android. 
 
-Good luck!
+Notes:
+* Ignore/skip CAPTCHA page (if encountered), submit code as if it does not exist or wait for user to complete it.
+* Take your time.
