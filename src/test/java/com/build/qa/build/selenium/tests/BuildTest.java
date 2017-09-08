@@ -22,7 +22,7 @@ public class BuildTest extends BaseFramework {
 	}
 	
 	/** 
-	 * Search for the Kohler K-690 from the search bar
+	 * Search for the Quoizel MY1613 from the search bar
 	 * @assert: That the product page we land on is what is expected by checking the product title
 	 * @difficulty Easy
 	 */
@@ -32,8 +32,8 @@ public class BuildTest extends BaseFramework {
 	}
 	
 	/** 
-	 * Go to the Bathroom Sinks category and add the second product
-	 * on the category drop page to the cart.
+	 * Go to the Bathroom Sinks category directly (https://www.build.com/bathroom-sinks/c108504) 
+	 * and add the second product on the category drop page to the cart.
 	 * @assert: the product that is added to the cart is what is expected
 	 * @difficulty Easy-Medium
 	 */
