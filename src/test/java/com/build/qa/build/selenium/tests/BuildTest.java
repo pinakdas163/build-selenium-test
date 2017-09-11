@@ -33,7 +33,7 @@ public class BuildTest extends BaseFramework {
 	
 	/** 
 	 * Go to the Bathroom Sinks category directly (https://www.build.com/bathroom-sinks/c108504) 
-	 * and add the second product on the category drop page to the cart.
+	 * and add the second product on the search results (Category Drop) page to the cart.
 	 * @assert: the product that is added to the cart is what is expected
 	 * @difficulty Easy-Medium
 	 */
@@ -55,8 +55,8 @@ public class BuildTest extends BaseFramework {
 	
 	/** 
 	 * Go to a category drop page (such as Bathroom Faucets) and narrow by
-	 * at least two facets, e.g: Finish=Chromes and Theme=Modern
-	 * @assert that the correct facets are being narrowed, and the result count
+	 * at least two filters (facets), e.g: Finish=Chromes and Theme=Modern
+	 * @assert that the correct filters are being narrowed, and the result count
 	 * is correct, such that each facet selection is narrowing the product count.
 	 * @difficulty Hard
 	 */
