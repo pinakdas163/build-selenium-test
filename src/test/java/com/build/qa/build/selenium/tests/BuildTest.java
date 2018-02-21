@@ -32,8 +32,6 @@ public class BuildTest extends BaseFramework {
 	 */
 	@Test
 	public void searchForProductLandsOnCorrectProduct() {
-		// TODO: Implement this test
-		
 		boolean modalview = false;
 		HomePage homePage = new HomePage(driver, wait);
 		
@@ -62,8 +60,7 @@ public class BuildTest extends BaseFramework {
 	 * @difficulty Easy-Medium
 	 */
 	@Test
-	public void addProductToCartFromCategoryDrop() {
-		
+	public void addProductToCartFromCategoryDrop() {	
 		boolean modalview = false;
 		String itemName = "";
 		HomePage homePage = new HomePage(driver, wait);
@@ -114,7 +111,6 @@ public class BuildTest extends BaseFramework {
 	 */
 	@Test
 	public void addProductToCartAndEmailIt() {
-		
 		boolean modalview = false;
 		String msg = "";
 		HomePage homePage = new HomePage(driver, wait);
@@ -194,8 +190,6 @@ public class BuildTest extends BaseFramework {
 	 */
 	@Test
 	public void facetNarrowBysResultInCorrectProductCounts() {
-		// TODO: Implement this test
-		
 		boolean modalview = false;
 		HomePage homePage = new HomePage(driver, wait);
 		
