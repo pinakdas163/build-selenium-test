@@ -23,6 +23,10 @@ public class HomePage extends BasePage {
 		return wait.until(ExpectedConditions.presenceOfElementLocated(buildThemeBody)) != null;
 	}
 	
+       /*
+	* retryingFindClick function handles the click failure due to stale element reference or
+	* element loading issues during any ajax calls
+	*/ 
 	public boolean retryingFindClick(By by)
 	{
         boolean result = false;
@@ -41,6 +45,10 @@ public class HomePage extends BasePage {
         return result;
 	}
 	
+       /*
+	* handleSplashModal function handles the mailing list modal when it is displayed
+	* randomly in different webpages
+	*/ 
 	public boolean handleSplashModal()
 	{
 		boolean result = false;
