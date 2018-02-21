@@ -161,7 +161,7 @@ public class BuildTest extends BaseFramework {
 				driver.findElement(By.cssSelector("#yourName")).sendKeys("Pinak Das");
 				driver.findElement(By.cssSelector("#yourEmail")).sendKeys("pinakdas163@gmail.com");
 				driver.findElement(By.cssSelector("#recipientName")).sendKeys("Pinak Das");
-				driver.findElement(By.cssSelector("#recipientEmail")).sendKeys("pinakdas163@gmail.com, pinak.spidey@gmail.com");
+				driver.findElement(By.cssSelector("#recipientEmail")).sendKeys("pinakdas163@gmail.com, jgilmore+SeleniumTest@build.com");
 				driver.findElement(By.cssSelector("#quoteMessage"))
 				.sendKeys("This is Pinak Das sending you a cart from my automation!");
 	
